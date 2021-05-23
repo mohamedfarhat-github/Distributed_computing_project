@@ -1,0 +1,9 @@
+version: '3.4'
+services:
+  project:
+    build:
+      context: .
+    volumes:
+      - .:/distributed_computing_mohamed_farhat_project
+    ports:
+    - 8888:8888
